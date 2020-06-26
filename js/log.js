@@ -8,4 +8,4 @@ document.querySelector("#date").value = currentDate
 
 document.querySelector("#hoursActual").value = "8"
 
-// document.querySelector("button").click();
+document.querySelector("button").click();
