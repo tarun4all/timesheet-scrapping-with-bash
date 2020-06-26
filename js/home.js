@@ -1,0 +1,1 @@
+document.querySelector("footer").querySelector("ul > li:nth-child(6) > a").click();

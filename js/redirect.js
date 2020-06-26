@@ -1,0 +1,1 @@
+window.open("https://codalien.com/ssp/log-time", "_self")

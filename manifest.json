@@ -1,0 +1,30 @@
+{
+    "name": "Timesheet",
+    "version": "1.0.0",
+    "description": "Timesheet logged",
+    "manifest_version": 2,
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://codalien.com/"],
+            "js": ["js/home.js"]
+        },
+        {
+            "matches": ["https://codalien.com/ssp/dashboard"],
+            "js": ["js/redirect.js"]
+        },
+        {
+            "matches": ["https://codalien.com/ssp/log-time"],
+            "js": ["js/log.js"]
+        },
+        {
+            "matches": ["https://codalien.com/clientLogin"],
+            "js": ["js/login.js"]
+        }
+    ],
+
+    "web_accessible_resources": [
+    ]
+}
